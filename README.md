@@ -19,9 +19,10 @@ Docker (target environments)
 Bash scripts  
 Optional: simple web UI  
   
-Features:  
-Spin up vulnerable services (DVWA-style, misconfigured APIs, weak SSH, etc.)  
-Automated recon:  
+**Features:**  
+Spin up vulnerable services (DVWA-style, misconfigured APIs, weak SSH)  
+  
+**Automated recon:**  
 Port scanning  
 Service fingerprinting  
   
