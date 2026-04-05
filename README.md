@@ -38,6 +38,14 @@ Basic injection attacks
 **Reporting engine:**  
 Generates a PDF or HTML “penetration test report”  
   
+/redteam-sim  
+ ├── orchestrator/        # controls attack flow  
+ ├── recon/               # scanning + fingerprinting  
+ ├── exploit_modules/     # attack simulations  
+ ├── reporting/           # report generation  
+ ├── lab_env/             # docker vulnerable targets  
+ └── rules_of_engagement/ # safety + compliance  
+  
 **Red Team Workflow**  
 [Recon] → [Enumeration] → [Exploitation] → [Reporting]  
   
