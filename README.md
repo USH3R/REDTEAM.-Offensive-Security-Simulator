@@ -1,11 +1,10 @@
 # **RED TEAM. Offensive Security Simulator**  
-![Red Team](https://img.shields.io/badge/Role-Attacker-red?style=for-the-badge&logo=hackthebox)
-![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-blue?style=for-the-badge&logo=cisco)
-![Automation](https://img.shields.io/badge/Skills-Automation-yellow?style=for-the-badge&logo=python)
-![Reporting](https://img.shields.io/badge/Output-Structured_Report-green?style=for-the-badge)
-![Federal-Ready](https://img.shields.io/badge/Compliance-Federal-blueviolet?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Availability-Public-orange?style=for-the-badge)
-![High-Value](https://img.shields.io/badge/Portfolio-Gold_Standard-lightgrey?style=for-the-badge)
+![Role – Attacker](https://img.shields.io/badge/Role-Attacker-red?style=for-the-badge&logo=hackthebox)
+![Skill – Offensive Automation](https://img.shields.io/badge/Skill-Offensive_Automation-yellow?style=for-the-badge&logo=python)
+![Output – Penetration Test Report](https://img.shields.io/badge/Output-Penetration_Test_Report-green?style=for-the-badge)
+![Ethical – Rules of Engagement](https://img.shields.io/badge/Ethical-Rules_of_Engagement-orange?style=for-the-badge)
+![Compliance – NIST_800-53/FISMA](https://img.shields.io/badge/Compliance-NIST_800--53%2FFISMA-blueviolet?style=for-the-badge)
+![Simulation – Real-World Attack Lab](https://img.shields.io/badge/Simulation-Real_World_Attack_Lab-lightgrey?style=for-the-badge)  
 A controlled, ethical hacking lab that simulates attacking a vulnerable environment.  
 ✅ Simulates real attacks  
 Brute force → credential attacks  
