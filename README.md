@@ -4,7 +4,7 @@
 ![Output – Penetration Test Report](https://img.shields.io/badge/Output-Penetration_Test_Report-green?style=for-the-badge)
 ![Ethical – Rules of Engagement](https://img.shields.io/badge/Ethical-Rules_of_Engagement-orange?style=for-the-badge)
 ![Compliance – NIST_800-53/FISMA](https://img.shields.io/badge/Compliance-NIST_800--53%2FFISMA-blueviolet?style=for-the-badge)
-![Simulation – Real-World Attack Lab](https://img.shields.io/badge/Simulation-Real_World_Attack_Lab-lightgrey?style=for-the-badge)  
+![Simulation – Real-World Attack Lab](https://img.shields.io/badge/Simulation-Real_World_Attack_Lab-lightgrey??style=for-the-badge&logo=flask&logoColor=white)  
 A controlled, ethical hacking lab that simulates attacking a vulnerable environment.  
 ✅ Simulates real attacks  
 Brute force → credential attacks  
