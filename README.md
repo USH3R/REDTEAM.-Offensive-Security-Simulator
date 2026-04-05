@@ -1,5 +1,11 @@
 # **RED TEAM. Offensive Security Simulator**  
-  
+![Red Team](https://img.shields.io/badge/Role-Attacker-red?style=for-the-badge&logo=hackthebox)
+![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-blue?style=for-the-badge&logo=cisco)
+![Automation](https://img.shields.io/badge/Skills-Automation-yellow?style=for-the-badge&logo=python)
+![Reporting](https://img.shields.io/badge/Output-Structured_Report-green?style=for-the-badge)
+![Federal-Ready](https://img.shields.io/badge/Compliance-Federal-blueviolet?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Availability-Public-orange?style=for-the-badge)
+![High-Value](https://img.shields.io/badge/Portfolio-Gold_Standard-lightgrey?style=for-the-badge)
 A controlled, ethical hacking lab that simulates attacking a vulnerable environment.  
 ✅ Simulates real attacks  
 Brute force → credential attacks  
