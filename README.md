@@ -25,17 +25,17 @@ Automated recon:
 Port scanning  
 Service fingerprinting  
   
-**Exploit modules:**
+**Exploit modules:**  
 Brute-force login (rate-limited)  
 Basic injection attacks  
   
-**Reporting engine:**
+**Reporting engine:**  
 Generates a PDF or HTML “penetration test report”  
   
-**Proves or show the following:**
-Understanding of attacker workflow
-Automation skills
-Reporting (this is huge for federal reviewers)
-
-**👉 Bonus:** 
+**Proves or show the following:**  
+Understanding of attacker workflow  
+Automation skills  
+Reporting (this is huge for federal reviewers)  
+  
+**👉 Bonus:**  
 “Rules of engagement” section to show understanding of legal/ethical constraints.
