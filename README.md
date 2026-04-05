@@ -38,6 +38,9 @@ Basic injection attacks
 **Reporting engine:**  
 Generates a PDF or HTML “penetration test report”  
   
+**Red Team Workflow**  
+[Recon] → [Enumeration] → [Exploitation] → [Reporting]  
+  
 **Proves or show the following:**  
 Understanding of attacker workflow  
 Automation skills  
