@@ -125,7 +125,7 @@ redteam-offsec-sim/
 **Prove or show the following:**  
 Understanding of attacker workflow  
 Automation skills  
-Reporting (this is huge for federal reviewers)  
+Reporting  
   
 **👉 Bonus:**  
 “Rules of engagement” section to show understanding of legal/ethical constraints.  
