@@ -146,7 +146,7 @@ This application is a high-efficiency automation framework designed to simulate 
 **The "Hardened-First" Safety Protocol**  
     NOTICE: This application does not open, modify, or expose any ports on the user's local machine or the host system.  
   
-**How it maintains security:**  
+<**How it maintains security:**>  
     **Virtual Lab Simulation:** The app utilizes a "Simulation Mode" (enabled by default) that directs the logic toward a predefined, sandboxed dataset. This allows for a full demonstration of attack-vector mapping and reporting without initiating real network traffic.  
     **Zero-Footprint Recon:** When running in live mode, the scanner uses a non-intrusive socket.connect_ex method. It acts strictly as a client (probing existing listeners) rather than a server. It never binds to a port or requests the host to "listen" for incoming connections.  
     **Ethical Boundary Logic:** The architecture is designed to respect the Principle of Least Privilege. It confirms the existence of a vulnerability by matching service fingerprints against known-vulnerable versions, rather than executing destructive payloads that would require system-level modifications or open backdoors.  
