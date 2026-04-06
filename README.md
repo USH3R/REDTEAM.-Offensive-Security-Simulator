@@ -157,11 +157,3 @@ Using GitHub Codespaces (Recommended)
     2. Select the tab called Codespaces, then  
     3. select (click on) 'Create codespace on main'.  
     2. Once the Terminal loads, simply type:    python3 main.py  
-  
-Using a public or personal terminal:  
-If you are using a public terminal or pc terminal (e.g. Powershell), you will need to install YAML:  
-    1. Open the terminal, then 
-    2. Type:  
-        git clone <https://github.com/USH3R/REDTEAM.-Offensive-Security-Simulator>  
-        cd REDTEAM.-Offensive-Security-Simulator  
-    
