@@ -40,14 +40,14 @@ Generates a PDF or HTML “penetration test report”
   
 # **Red Team OffSec Structure**  
   
-**Primary Files / Structure**
-redteam-offsec-sim/
-├── main.py
-├── recon.py
-├── exploit.py
-├── reporting.py
-├── settings.yaml
-├── targets.yaml
+**Primary Files / Structure**  
+redteam-offsec-sim/  
+├── main.py  
+├── recon.py  
+├── exploit.py  
+├── reporting.py  
+├── settings.yaml  
+├── targets.yaml  
 └── Dockerfile  
   
 **Red Team Workflow**  
