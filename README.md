@@ -155,5 +155,5 @@ This application is a high-efficiency automation framework designed to simulate 
 Using GitHub Codespaces (Recommended)  
     1. Click the green '<> Code' button on this repo, then  
     2. Select the tab called Codespaces, then  
-    3. select (click on) 'Create codespace on main'.  
+    3. Select (click on) 'Create codespace on main'.  
     2. Once the Terminal loads, simply type:    python3 main.py  
