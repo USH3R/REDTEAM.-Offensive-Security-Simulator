@@ -37,10 +37,23 @@ Basic injection attacks
   
 **Reporting engine:**  
 Generates a PDF or HTML “penetration test report”  
-    
+  
+# **Red Team OffSec Structure**  
+  
+**Primary Files / Structure**
+redteam-offsec-sim/
+├── main.py
+├── recon.py
+├── exploit.py
+├── reporting.py
+├── settings.yaml
+├── targets.yaml
+└── Dockerfile  
+  
 **Red Team Workflow**  
 [Recon] → [Enumeration] → [Exploitation] → [Reporting]  
   
+Future Files / Structure
 redteam-offsec-sim/  
  ├── orchestrator/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # controls attack flow  
  ├── recon/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# scanning + fingerprinting  
@@ -48,7 +61,8 @@ redteam-offsec-sim/
  ├── reporting/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   # report generation  
  ├── lab_env/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   # docker vulnerable targets  
  └── rules_of_engagement/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# safety + compliance  
-
+  
+Potential / Future Files / Structure  
 redteam-offsec-sim/  
 │  
 ├── README.md  
@@ -108,7 +122,7 @@ redteam-offsec-sim/
     ├── test_exploits.py  
     └── test_pipeline.py  
   
-**Proves or show the following:**  
+**Prove or show the following:**  
 Understanding of attacker workflow  
 Automation skills  
 Reporting (this is huge for federal reviewers)  
