@@ -53,7 +53,7 @@ redteam-offsec-sim/
 **Red Team Workflow**  
 [Recon] → [Enumeration] → [Exploitation] → [Reporting]  
   
-Future Files / Structure
+Future Files / Structure  
 redteam-offsec-sim/  
  ├── orchestrator/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # controls attack flow  
  ├── recon/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# scanning + fingerprinting  
