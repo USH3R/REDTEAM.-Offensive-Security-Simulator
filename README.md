@@ -150,3 +150,19 @@ This application is a high-efficiency automation framework designed to simulate 
 1. Virtual Lab Simulation: The app utilizes a "Simulation Mode" (enabled by default) that directs the logic toward a predefined, sandboxed dataset. This allows for a full demonstration of attack-vector mapping and reporting without initiating real network traffic.  
 2. Zero-Footprint Recon: When running in live mode, the scanner uses a non-intrusive socket.connect_ex method. It acts strictly as a client (probing existing listeners) rather than a server. It never binds to a port or requests the host to "listen" for incoming connections.  
 3. Ethical Boundary Logic: The architecture is designed to respect the Principle of Least Privilege. It confirms the existence of a vulnerability by matching service fingerprints against known-vulnerable versions, rather than executing destructive payloads that would require system-level modifications or open backdoors.  
+  
+# **Instructions to Run Red Team OffSec Simulator**  
+Using GitHub Codespaces (Recommended)  
+    1. Click the green '<> Code' button on this repo, then  
+    2. Select the tab called Codespaces, then  
+    3. select (click on) 'Create codespace on main'.  
+    2. Once the Terminal loads, simply type:  
+              python3 main.py  
+  
+Using a public or personal terminal:  
+If you are using a public terminal or pc terminal (e.g. Powershell), you will need to install YAML:
+    1. Open the terminal, then 
+    2. Type:
+        git clone <https://github.com/USH3R/REDTEAM.-Offensive-Security-Simulator>
+        cd REDTEAM.-Offensive-Security-Simulator
+    
