@@ -75,7 +75,7 @@ def main():
             logger.info(f"Recon complete for {target}")
 
             # Step 2: Exploitation
-            exploit_results = run_exploits(recon_data, settings)
+            exploit_results = run_exploits(target, recon_data, settings)
             logger.info(f"Exploitation complete for {target}")
 
             # Step 3: Reporting
