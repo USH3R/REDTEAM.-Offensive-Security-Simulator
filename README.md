@@ -42,12 +42,12 @@ Generates a PDF or HTML “penetration test report”
 [Recon] → [Enumeration] → [Exploitation] → [Reporting]  
   
 redteam-offsec-sim/  
- ├── orchestrator/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   # controls attack flow  
- ├── recon/                 # scanning + fingerprinting  
- ├── exploit_modules/       # attack simulations  
- ├── reporting/             # report generation  
- ├── lab_env/               # docker vulnerable targets  
- └── rules_of_engagement/   # safety + compliance  
+ ├── orchestrator/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # controls attack flow  
+ ├── recon/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 # scanning + fingerprinting  
+ ├── exploit_modules/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       # attack simulations  
+ ├── reporting/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             # report generation  
+ ├── lab_env/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               # docker vulnerable targets  
+ └── rules_of_engagement/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   # safety + compliance  
 
 redteam-offsec-sim/  
 │  
