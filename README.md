@@ -41,7 +41,7 @@ Generates a PDF or HTML “penetration test report”
 **Red Team Workflow**  
 [Recon] → [Enumeration] → [Exploitation] → [Reporting]  
   
-redteam-offsec-sim/
+redteam-offsec-sim/  
  ├── orchestrator/          # controls attack flow  
  ├── recon/                 # scanning + fingerprinting  
  ├── exploit_modules/       # attack simulations  
