@@ -57,6 +57,65 @@ Reporting (this is huge for federal reviewers)
 **👉 Bonus:**  
 “Rules of engagement” section to show understanding of legal/ethical constraints.  
   
+redteam-offsec-sim/  
+│  
+├── README.md  
+├── LICENSE  
+├── requirements.txt  
+├── docker-compose.yml  
+├── docs/  
+│   ├── architecture.md  
+│   ├── attack_workflow.md  
+│   ├── nist_mapping.md  
+│   └── rules_of_engagement.md  
+├── config/  
+│   ├── settings.yaml  
+│   └── targets.yaml  
+├── lab_env/  
+│   ├── web_dvwa/  
+│   │   ├── Dockerfile  
+│   │   └── docker-compose.yml  
+│   ├── ssh_weak/  
+│   │   ├── Dockerfile  
+│   │   └── users.txt  
+│   └── api_misconfig/  
+│       ├── Dockerfile  
+│       └── app.py  
+├── orchestrator/  
+│   ├── main.py  
+│   ├── pipeline.py  
+│   └── scheduler.py  
+├── recon/  
+│   ├── scanner.py  
+│   ├── fingerprint.py  
+│   └── utils.py  
+├── enumeration/  
+│   ├── service_mapper.py  
+│   └── logic.py  
+├── exploit_modules/  
+│   ├── brute_force/  
+│   │   ├── ssh_bruteforce.py  
+│   │   └── wordlists/  
+│   │       └── small.txt  
+│   ├── injection/  
+│   │   ├── sql_injection.py  
+│   │   └── payloads.txt  
+│   └── misconfig/  
+│       └── default_creds.py  
+├── reporting/  
+│   ├── report_generator.py  
+│   ├── templates/  
+│   │   ├── report.html  
+│   │   └── findings.html  
+│   └── output/  
+│       └── (generated reports here)  
+├── logs/  
+│   └── attacks.log  
+└── tests/  
+    ├── test_recon.py  
+    ├── test_exploits.py  
+    └── test_pipeline.py  
+  
 # **Portfolio Context**  
   
 This project is part of a full-spectrum cybersecurity portfolio that demonstrates end-to-end capability in offensive, defensive, and secure system design workflows:  
