@@ -37,26 +37,18 @@ Basic injection attacks
   
 **Reporting engine:**  
 Generates a PDF or HTML “penetration test report”  
+    
+**Red Team Workflow**  
+[Recon] → [Enumeration] → [Exploitation] → [Reporting]  
   
-/redteam-sim  
+redteam-offsec-sim/
  ├── orchestrator/          # controls attack flow  
  ├── recon/                 # scanning + fingerprinting  
  ├── exploit_modules/       # attack simulations  
  ├── reporting/             # report generation  
  ├── lab_env/               # docker vulnerable targets  
  └── rules_of_engagement/   # safety + compliance  
-  
-**Red Team Workflow**  
-[Recon] → [Enumeration] → [Exploitation] → [Reporting]  
-  
-**Proves or show the following:**  
-Understanding of attacker workflow  
-Automation skills  
-Reporting (this is huge for federal reviewers)  
-  
-**👉 Bonus:**  
-“Rules of engagement” section to show understanding of legal/ethical constraints.  
-  
+
 redteam-offsec-sim/  
 │  
 ├── README.md  
@@ -116,8 +108,15 @@ redteam-offsec-sim/
     ├── test_exploits.py  
     └── test_pipeline.py  
   
-# **Portfolio Context**  
+**Proves or show the following:**  
+Understanding of attacker workflow  
+Automation skills  
+Reporting (this is huge for federal reviewers)  
   
+**👉 Bonus:**  
+“Rules of engagement” section to show understanding of legal/ethical constraints.  
+  
+# **Portfolio Context**    
 This project is part of a full-spectrum cybersecurity portfolio that demonstrates end-to-end capability in offensive, defensive, and secure system design workflows:  
 **Red Team (OffSec Simulator):** Simulates attacker workflows and penetration testing.  
 **Blue Team (SentinelOps):** Detects threats and generates actionable incident reports.  
